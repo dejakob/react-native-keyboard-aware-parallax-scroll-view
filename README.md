@@ -3,9 +3,11 @@
 ## Motivation
 We needed a parallax view with native animation and
 a scrollView that scrolls automatically when focussing a TextField.
-As seen in the FLAVR app
-[Google play](https://play.google.com/store/apps/details?id=be.flavr)
-[iTunes store](https://itunes.apple.com/be/app/flavr-buy-homemade-meals-from-your-neighbours/id1121681824?mt=8)
+As seen in the FLAVR app, which is available on
+[Google play](https://play.google.com/store/apps/details?id=be.flavr) and 
+[iTunes store](https://itunes.apple.com/be/app/flavr-buy-homemade-meals-from-your-neighbours/id1121681824?mt=8).
+Note: we included the new parallax scroll in the latest version, which will be released soon.
+
 
 ![Preview](https://media.giphy.com/media/PY1p6I2ckFK5q/giphy.gif)
 
