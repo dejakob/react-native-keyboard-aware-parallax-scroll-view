@@ -1,0 +1,36 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "no-use-before-define": ["error", { "functions": false, "classes": false, "variables": true }],
+    "no-underscore-dangle": ["error", { "allow": ["_id", "_type"] } ],
+    "valid-jsdoc": ["error", { "requireReturn": true }],
+    "indent": ["error", 4],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "react/prop-types": 0,
+    "react/require-default-props": 0,
+    "react/no-unused-prop-types": 0,
+    "react/no-string-refs": 0,
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "global-require": 0,
+    "no-empty": 0,
+    "class-methods-use-this": 0,
+    "no-alert": 0
+  },
+  "globals": {
+    "require": true,
+    "fetch": true,
+    "navigator": true,
+    "FormData": true,
+    "ErrorUtils": true,
+    "alert": true
+  }
+}
