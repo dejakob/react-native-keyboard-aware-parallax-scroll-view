@@ -8,6 +8,7 @@ As seen in the FLAVR app
 [iTunes store](https://itunes.apple.com/be/app/flavr-buy-homemade-meals-from-your-neighbours/id1121681824?mt=8)
 
 ![Preview](https://media.giphy.com/media/PY1p6I2ckFK5q/giphy.gif)
+
 (Screenshot belongs to FLAVR NV, all rights reserved)
 
 ## Setup
