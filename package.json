@@ -1,6 +1,6 @@
 {
   "name": "react-native-keyboard-aware-parallax-scroll-view",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Native Keyboard Aware ScrollView",
   "main": "index.js",
   "repository": "https://github.com/dejakob/react-native-keyboard-aware-parallax-scroll-view.git",
