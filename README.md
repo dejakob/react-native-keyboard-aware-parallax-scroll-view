@@ -3,12 +3,17 @@
 ## Motivation
 We needed a parallax view with native animation and
 a scrollView that scrolls automatically when focussing a TextField.
+As seen in the FLAVR app
+[Google play](https://play.google.com/store/apps/details?id=be.flavr)
+[iTunes store](https://itunes.apple.com/be/app/flavr-buy-homemade-meals-from-your-neighbours/id1121681824?mt=8)
+
+![Preview](https://media.giphy.com/media/PY1p6I2ckFK5q/giphy.gif)
 
 ## Setup
 Install the dependency with npm or yarn:
 
 ```
-yarn add dejakob/react-native-keyboard-aware-parallax-scroll-view
+yarn add react-native-keyboard-aware-parallax-scroll-view
 ```
 
 Import into your component
