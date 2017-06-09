@@ -1,5 +1,7 @@
 # React Native Keyboard Aware Parallax ScrollView
 
+**Please consider using React Native 0.43 or higher**
+
 ## Motivation
 We needed a parallax view with native animation and
 a scrollView that scrolls automatically when focussing a TextField.
