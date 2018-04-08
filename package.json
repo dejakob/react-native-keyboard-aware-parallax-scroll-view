@@ -10,7 +10,7 @@
     "lint": "eslint **/*.js"
   },
   "dependencies": {
-    "react-native-keyboard-aware-scroll-view": "dejakob/react-native-keyboard-aware-scroll-view#master"
+    "react-native-keyboard-aware-scroll-view": "0.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
