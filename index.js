@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Animated, View, StyleSheet } from 'react-native';
 import PropTypes from 'prop-types';
-import { KeyboardAwareAnimatedScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 const DEFAULT_HEIGHT = 200;
 const styles = StyleSheet.create({
@@ -61,7 +60,7 @@ class ParallaxKeyboardAwareScrollView extends Component {
      *  Event that is needed by the keyboard aware scrollView
      * @returns {Function} scroll handler
      */
-    createScrollHandler(extraEvent) {
+    createScrollHandler() {
         return Animated.event(
             [
                 {
@@ -77,7 +76,6 @@ class ParallaxKeyboardAwareScrollView extends Component {
                     if (typeof this.props.onScroll === 'function') {
                         this.props.onScroll(e);
                     }
-                    extraEvent(e);
                 },
                 useNativeDriver: true,
             },
@@ -136,9 +134,9 @@ class ParallaxKeyboardAwareScrollView extends Component {
             >
                 {this.renderBackground()}
 
-                <KeyboardAwareAnimatedScrollView
+                <Animated.ScrollView
                   style={styles.wrapper}
-                  createScrollHandler={this.createScrollHandler}
+                  onScroll={this.createScrollHandler()}
                   scrollEventThrottle={32}
                   ref={(akasw) => { this.scrollView = akasw; }}
                 >
@@ -153,7 +151,7 @@ class ParallaxKeyboardAwareScrollView extends Component {
 
                         {this.props.children}
                     </View>
-                </KeyboardAwareAnimatedScrollView>
+                </Animated.ScrollView>
             </View>
         );
     }
